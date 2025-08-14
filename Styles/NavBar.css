@@ -1,0 +1,31 @@
+.nav-bar{
+    background-color: red;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    width: 1440 px;
+height: 100px;
+
+opacity: 1;
+
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+.text{
+    width: 242;
+height: 34;
+top: 33px;
+left: 290px;
+opacity: 1;
+font-family: Inter;
+font-weight: 600;
+font-size: 28px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #343C6A;
+}

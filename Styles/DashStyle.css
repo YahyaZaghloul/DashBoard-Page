@@ -1,10 +1,6 @@
 body {
     height: 200vh;
-    
-}
-
-.nav-bar{
-    background-color: red;
-    width: 100%;
-    position: fixed;
+    display: flex;
+    background-color:#E6EFF5;
+    ;
 }

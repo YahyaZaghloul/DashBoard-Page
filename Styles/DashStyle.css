@@ -1,6 +1,108 @@
 body {
     height: 200vh;
-    display: flex;
     background-color:#E6EFF5;
-    ;
+}
+.in-text{
+    width: 85px;
+    height: 27px;
+    top: 100x;
+    opacity: 1;
+    margin-left:210px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 85px;
+    color: #343C6A;
+}
+
+
+.cards {
+    margin-left: 200px;
+    margin-top: -70px;
+    display: flex;
+    gap: 20px;
+    height: 125px;
+    font-family: Inter;
+    padding-bottom: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card h4 {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card-value {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1814F3;
+}
+.employees-section {
+    display: block;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: block;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 75%;
+}
+
+.employees-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.employees-header h3 {
+    font-family: Inter;
+    color: #343C6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.add-employee {
+    font-family: Inter;
+    color: #1814F3;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.add-employee:hover {
+    text-decoration: underline;
+}
+
+
+.employees-table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 100px;
+}
+
+.employees-table th {
+    text-align: left;
+    padding: 12px;
+    font-size: 14px;
+    color: #6b7280;
+    font-family: Inter;
+}
+
+.employees-table td {
+    font-family: Inter;
+    padding: 12px;
+    font-size: 14px;
+    border-top: 1px solid #f0f0f0;
 }

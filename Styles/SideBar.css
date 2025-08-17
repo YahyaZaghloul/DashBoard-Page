@@ -21,7 +21,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
 }
 .button-transfer{
     background: none;
@@ -50,15 +49,15 @@
 .button-text{
     margin-left: 40px;
     width: 51;
-height: 22;
-top: 133px;
-left: 95px;
-opacity: 1;
-font-family: Inter;
-font-weight: 500;
-font-size: 15px;
-line-height: 100%;
-letter-spacing: 0%;
+    height: 22;
+    top: 133px;
+    left: 95px;
+    opacity: 1;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
 .button-text:hover{
     color: #1814F3;
@@ -67,18 +66,17 @@ letter-spacing: 0%;
 .button-text2{
     margin-left: 30px;
     width: 51px;
-height: 22px;
-top: 133px;
-left: 95px;
-opacity: 1;
-font-family: Inter;
-font-weight: 500;
-font-size: 15px;
-line-height: 100%;
-letter-spacing: 0%;
-margin-right: 10px;
+    height: 22px;
+    top: 133px;
+    left: 95px;
+    opacity: 1;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-right: 10px;
 }
 .button-text2:hover{
     color: #1814F3;
-
 }
